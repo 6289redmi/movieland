@@ -176,7 +176,12 @@ const items = [
           >
             <Space wrap>
                 <Button type="link"  href="/login">로그인</Button>
-                <Button type="primary"  href="/join">회원가입</Button>
+                <Button type="primary"  href="/join"
+                style={{
+                  backgroundColor: '#A0D468',
+                  color: '#111'
+                }}
+                >회원가입</Button>
             </Space>
           </div>
         </Header>
